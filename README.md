@@ -9,6 +9,14 @@
 </p>
 
 <p align="center">
+  <b>简体中文</b> | <a href="README.zh-Hant.md">繁體中文</a> | <a href="README.en.md">English</a>
+</p>
+
+<p align="center">
+  基于 <a href="https://github.com/Xocio/ZeroUI">ZeroUI</a> 开发
+</p>
+
+<p align="center">
   <a href="https://github.com/Xocio/WeDeep/releases/latest"><img src="https://img.shields.io/github/v/release/Xocio/WeDeep?label=%E4%B8%8B%E8%BD%BD" alt="Release" /></a>
   <a href="https://github.com/Xocio/WeDeep/releases"><img src="https://img.shields.io/github/downloads/Xocio/WeDeep/total?label=%E4%B8%8B%E8%BD%BD%E9%87%8F" alt="Downloads" /></a>
   <a href="https://github.com/Xocio/WeDeep/stargazers"><img src="https://img.shields.io/github/stars/Xocio/WeDeep?style=flat" alt="Stars" /></a>
