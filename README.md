@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="ZeroUI/app/src/main/res/drawable-nodpi/ic_logo.png" width="128" alt="WeDeep" />
+  <img src=".github/logo.png" width="128" alt="WeDeep" />
 </p>
 
 <h1 align="center">WeDeep</h1>
