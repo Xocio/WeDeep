@@ -26,6 +26,17 @@ android {
         require(!serviceUrl.contains('"') && !serviceUrl.contains('\\')) { "wedeep.serviceUrl must be a plain URL" }
         buildConfigField("String", "SERVICE_URL", "\"$serviceUrl\"")
     }
+    val releaseKeystore = System.getenv("WEDEEP_KEYSTORE")?.takeIf { it.isNotBlank() }
+    signingConfigs {
+        if (releaseKeystore != null) {
+            create("release") {
+                storeFile = file(releaseKeystore)
+                storePassword = System.getenv("WEDEEP_KEYSTORE_PASSWORD")
+                keyAlias = System.getenv("WEDEEP_KEY_ALIAS")
+                keyPassword = System.getenv("WEDEEP_KEY_PASSWORD")
+            }
+        }
+    }
     buildTypes {
         release {
             isMinifyEnabled = true
@@ -34,6 +45,7 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro",
             )
+            if (releaseKeystore != null) signingConfig = signingConfigs.getByName("release")
         }
     }
     compileOptions {

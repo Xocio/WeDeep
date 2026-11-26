@@ -17,8 +17,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Xocio/WeDeep/releases/latest"><img src="https://img.shields.io/github/v/release/Xocio/WeDeep?label=%E4%B8%8B%E8%BC%89" alt="Release" /></a>
-  <a href="https://github.com/Xocio/WeDeep/releases"><img src="https://img.shields.io/github/downloads/Xocio/WeDeep/total?label=%E4%B8%8B%E8%BC%89%E9%87%8F" alt="Downloads" /></a>
+  <a href="https://pan.quark.cn/s/cfff69d4b768"><img src="https://img.shields.io/badge/%E4%B8%8B%E8%BC%89-%E5%A4%B8%E5%85%8B%E7%B6%B2%E7%9B%A4-0A84FF" alt="Download" /></a>
   <a href="https://github.com/Xocio/WeDeep/stargazers"><img src="https://img.shields.io/github/stars/Xocio/WeDeep?style=flat" alt="Stars" /></a>
   <a href="https://github.com/Xocio/WeDeep/commits"><img src="https://img.shields.io/github/last-commit/Xocio/WeDeep" alt="Last commit" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-GPL--3.0-blue" alt="License" /></a>
@@ -50,7 +49,7 @@ WeDeep 是一款 Android 應用程式，用於在本人裝置上檢視、搜尋�
 
 這兩部分不公開，是為了防止被不法分子利用：公開解密與寫回的實作，會降低他人竊取他人聊天記錄、偽造或竄改聊天記錄的門檻。
 
-這兩部分在本倉庫中以佔位實作代替（`ZeroUI/app/src/stub`）。從本倉庫建置的版本可以編譯和執行，但無法解密帳號，因而無法瀏覽、匯出或分析聊天記錄，也不提供聊天記錄編輯。完整功能請使用 [Releases](https://github.com/Xocio/WeDeep/releases) 中的正式版本。
+這兩部分在本倉庫中以佔位實作代替（`ZeroUI/app/src/stub`）。從本倉庫建置的版本可以編譯和執行，但無法解密帳號，因而無法瀏覽、匯出或分析聊天記錄，也不提供聊天記錄編輯。完整功能請從[夸克網盤](https://pan.quark.cn/s/cfff69d4b768)下載正式版本。
 
 ## 隱私與連網
 
@@ -95,6 +94,6 @@ cd ZeroUI
 
 本倉庫的原始碼以 [GNU General Public License v3.0](LICENSE) 發布。第三方元件的授權見 [ZeroUI/THIRD_PARTY_NOTICES.md](ZeroUI/THIRD_PARTY_NOTICES.md)。
 
-Releases 中的正式版本包含未公開的元件，依應用程式內的使用者協議提供。
+網盤中的正式版本包含未公開的元件，依應用程式內的使用者協議提供。
 
 提交 Pull Request 即表示你同意作者在 GPL-3.0 之外，以其他授權在正式版本中使用你提交的程式碼。

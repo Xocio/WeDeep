@@ -17,8 +17,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Xocio/WeDeep/releases/latest"><img src="https://img.shields.io/github/v/release/Xocio/WeDeep?label=release" alt="Release" /></a>
-  <a href="https://github.com/Xocio/WeDeep/releases"><img src="https://img.shields.io/github/downloads/Xocio/WeDeep/total?label=downloads" alt="Downloads" /></a>
+  <a href="https://pan.quark.cn/s/cfff69d4b768"><img src="https://img.shields.io/badge/download-Quark%20Drive-0A84FF" alt="Download" /></a>
   <a href="https://github.com/Xocio/WeDeep/stargazers"><img src="https://img.shields.io/github/stars/Xocio/WeDeep?style=flat" alt="Stars" /></a>
   <a href="https://github.com/Xocio/WeDeep/commits"><img src="https://img.shields.io/github/last-commit/Xocio/WeDeep" alt="Last commit" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-GPL--3.0-blue" alt="License" /></a>
@@ -50,7 +49,7 @@ This repository publishes all source code except these two parts:
 
 They are kept private to prevent misuse: publishing the decryption and write-back implementations would lower the bar for stealing, forging or tampering with other people's chat records.
 
-Placeholder implementations stand in for them in this repository (`ZeroUI/app/src/stub`). A build from this repository compiles and runs, but cannot decrypt accounts, so it cannot browse, export or analyze chats, and does not offer chat editing. For the full feature set, use the official build from [Releases](https://github.com/Xocio/WeDeep/releases).
+Placeholder implementations stand in for them in this repository (`ZeroUI/app/src/stub`). A build from this repository compiles and runs, but cannot decrypt accounts, so it cannot browse, export or analyze chats, and does not offer chat editing. For the full feature set, download the official build from [Quark Drive](https://pan.quark.cn/s/cfff69d4b768).
 
 ## Privacy and networking
 
@@ -95,6 +94,6 @@ cd ZeroUI
 
 The source code in this repository is released under the [GNU General Public License v3.0](LICENSE). Licenses of third-party components are listed in [ZeroUI/THIRD_PARTY_NOTICES.md](ZeroUI/THIRD_PARTY_NOTICES.md).
 
-Official builds in Releases include non-public components and are provided under the in-app user agreement.
+Official builds on Quark Drive include non-public components and are provided under the in-app user agreement.
 
 By submitting a Pull Request, you agree that the author may use your submitted code in official builds under licenses other than GPL-3.0.
